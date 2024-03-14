@@ -23,6 +23,16 @@ namespace FirstMVCWebApp.Controllers
             return View();
         }
 
+        public IActionResult Portfolio()
+        {
+            return View();
+        }
+
+        public IActionResult GitHub()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
