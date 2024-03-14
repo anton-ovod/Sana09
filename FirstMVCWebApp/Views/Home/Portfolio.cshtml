@@ -1,5 +1,21 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Portfolio";
 }
+<link rel="stylesheet" href="~/css/portfolio.css" />
+<div class="container">
+    <h1 class="display-4">My Portfolio</h1>
+    <div class="portfolio-items">
+        <div class="portfolio-item">
+            <img src="~/images/project_1.jpg" alt="Project 1">
+            <h2 class="display-6">Project 1</h2>
+            <p>Description for project 1</p>
+            <p>Category: Web Development</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="~/images/project_2.jpg" alt="Project 2">
+            <h2 class="display-6">Project 2</h2>
+            <p>Description for project 2</p>
+            <p>Category: Mobile Development</p>
+        </div>
+    </div>
+</div>
